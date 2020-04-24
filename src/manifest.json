@@ -3,15 +3,15 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "sketch-foundation.my-command-identifier",
-      "script": "./my-command.js"
+      "name": "toggele all",
+      "identifier": "sketch-foundation.toggle-all",
+      "script": "./toggle-all.js"
     }
   ],
   "menu": {
     "title": "sketch-foundation",
     "items": [
-      "sketch-foundation.my-command-identifier"
+      "sketch-foundation.toggle-all"
     ]
   }
 }

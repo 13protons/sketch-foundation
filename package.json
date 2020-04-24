@@ -23,5 +23,8 @@
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
   },
-  "author": "Alan Languirand <alanlanguirand@quickenloans.com>"
+  "author": "Alan Languirand <alanlanguirand@quickenloans.com>",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
