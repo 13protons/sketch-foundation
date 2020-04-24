@@ -1,7 +1,7 @@
 {
   "name": "sketch-foundation",
   "description": "Sketch Plugin to turn named layers on/off on all document artboards as a way to create foundational layers like notes and guides more manageable",
-  "version": "0.1.1-0",
+  "version": "0.1.1-1",
   "engines": {
     "sketch": ">=49.0"
   },
