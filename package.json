@@ -1,6 +1,6 @@
 {
   "name": "sketch-foundation",
-  "description": "",
+  "description": "Sketch Plugin to turn named layers on/off on all document artboards as a way to create foundational layers like notes and guides more manageable",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=49.0"
@@ -24,6 +24,7 @@
     "@skpm/builder": "^0.7.0"
   },
   "author": "Alan Languirand <alanlanguirand@quickenloans.com>",
+  "repository": "https://github.com/13protons/sketch-foundation",
   "dependencies": {
     "lodash": "^4.17.15"
   }
