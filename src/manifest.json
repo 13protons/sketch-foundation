@@ -3,15 +3,31 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "toggele all",
+      "name": "Toggle Visibility",
+      "shortcut": "ctrl shift f",
       "identifier": "sketch-foundation.toggle-all",
-      "script": "./toggle-all.js"
+      "script": "./shared.js",
+      "handler": "toggleAll"
+    },
+    {
+      "name": "Edit layer names...",
+      "identifier": "sketch-foundation.edit-names",
+      "script": "./shared.js",
+      "handler": "editNames"
+    },
+    {
+      "name": "Reset layer names...",
+      "identifier": "sketch-foundation.reset-names",
+      "script": "./shared.js",
+      "handler": "resetNames"
     }
   ],
   "menu": {
-    "title": "sketch-foundation",
+    "title": "Foundation",
     "items": [
-      "sketch-foundation.toggle-all"
+      "sketch-foundation.toggle-all",
+      "sketch-foundation.edit-names",
+      "sketch-foundation.reset-names"
     ]
   }
 }
