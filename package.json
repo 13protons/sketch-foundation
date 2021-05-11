@@ -26,6 +26,6 @@
   "author": "Alan Languirand <alanlanguirand@quickenloans.com>",
   "repository": "https://github.com/13protons/sketch-foundation",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   }
 }
